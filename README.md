@@ -1,25 +1,46 @@
-# Updated portfolio — single CV edition
+# [Visit my portfolio → abdullahabrar21.github.io](https://abdullahabrar21.github.io/)
 
-## Update your existing GitHub site
-1. Extract this ZIP.
-2. Open the website repository on GitHub at its top level.
-3. Choose Add file → Upload files.
-4. Drag ALL contents of this package's website folder into the upload area, including the entire assets folder. Do not upload the enclosing website folder or ZIP.
-5. Commit changes. Existing matching files will be updated.
-6. Delete the old PDFs under assets/cv (lecturer.pdf, corporate.pdf, research.pdf) if they are still in GitHub. This package contains only Mohd_Abdullah_Abrar_CV.pdf. Uploading new files does not delete old files automatically.
-7. Wait for the Pages deployment to finish, then press Ctrl+F5 on the live website.
+## Mohd Abdullah Abrar | Engineering Portfolio
 
-## Check the images
-assets/images must contain sensor.webp, thesis.webp, phase.webp, sap.webp, ml.webp, cmos.webp, fan.webp, and game.webp. If these are missing, re-upload the assets folder at the repository root.
+My personal portfolio brings together my education, research, team projects, technical skills, and industrial training. I am an Electrical and Electronic Engineering graduate from the Islamic University of Technology (IUT), interested in engineering roles, teaching, and research opportunities.
 
-## Editing
-Edit content.js for your biography, contact links, project details, education, coursework, GRE and skills. Preserve quotes and commas. Research descriptions and headings are in index.html. Appearance is in styles.css.
-To add a portrait, upload assets/images/portrait.jpg and set photo in content.js to that path.
-Replace assets/cv/Mohd_Abdullah_Abrar_CV.pdf to update the single downloadable CV.
+The website presents work across electronics, digital and embedded systems, machine learning, and photonics. Each project includes an overview, its technical approach, documented outcomes, and a separate description of my contribution.
 
-## Source and scope
-The supplied CV_MAA(1).pdf is included unchanged as the only CV. Team attribution and confirmed individual contributions are retained. The thesis section starts with the cross-sectional sensor illustration from Figure 3.1, then shows the numerical plot. The thesis discloses AI assistance for Figure 3.1, reflected in its caption.
-The tennis project is described from the CV and links to its supplied team repository; its cover is a text panel, not an invented project screenshot.
-Removed the older leadership and certification sections to align with the new CV.
+## Explore the website
 
-Official Pages instructions: https://docs.github.com/en/pages/quickstart
+- **[About me](https://abdullahabrar21.github.io/#about)** — academic background and engineering interests.
+- **[Projects](https://abdullahabrar21.github.io/#projects)** — team projects with technical summaries, images, and individual contributions.
+- **[Research](https://abdullahabrar21.github.io/#research)** — PCF-SPR sensor thesis and thin-film lithium niobate research.
+- **[Download my CV](https://abdullahabrar21.github.io/assets/cv/Mohd_Abdullah_Abrar_CV.pdf)** — education, experience, projects, and skills.
+
+## Featured projects
+
+| Project | Focus |
+| --- | --- |
+| SAP-1-based 6-bit computer | Digital architecture, shared-bus integration, and arithmetic logic |
+| Tennis ball tracking and speed analysis | Computer vision, court mapping, and motion analysis |
+| Explainable diabetic foot ulcer detection | Image classification, model explanations, and mobile deployment workflow |
+| Temperature-controlled DC fan | Temperature sensing, microcontroller control, and PWM |
+| Tic-Tac-Toe on an 8051 | Assembly programming, game logic, and peripheral interfacing |
+| Voltage-controlled analog phase shifter | OTA-C circuit design and analog simulation |
+| Low-power CMOS biosensor alert circuit | Transistor-level logic simulation and physical layout |
+
+These are team projects. The website distinguishes the team's overall work from my individual responsibilities.
+
+## Research
+
+**Quad-sector photonic crystal fiber surface plasmon resonance sensor**  
+Undergraduate thesis investigating a dual-resonance refractive-index sensor with spatially separated ITO and Ag–TiO₂ plasmonic regions. My contribution involved building the sensor geometry from scratch in COMSOL Multiphysics and performing simulations. The website presents the sensor design first, followed by numerical analysis and reported performance. This is a numerical study; fabrication and experimental validation remain future work.
+
+**Thin-film lithium niobate photonics**  
+Independent research into phase matching for second-harmonic generation in micro-ring resonators, using Lumerical MODE and FDTD workflows.
+
+## Contact
+
+- **Email:** [abdullahabrar21@iut-dhaka.edu](mailto:abdullahabrar21@iut-dhaka.edu)
+- **LinkedIn:** [Mohd Abdullah Abrar](https://www.linkedin.com/in/mohd-abdullah-abrar/)
+- **GitHub:** [abdullahabrar21](https://github.com/abdullahabrar21)
+
+---
+
+Built with HTML, CSS, and JavaScript and hosted on GitHub Pages.
