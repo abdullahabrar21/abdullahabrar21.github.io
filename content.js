@@ -1,4 +1,4 @@
-// Edit profile, projects, education, coursework, and skills here. Preserve quotes and commas.
+// Edit project overview, method, outcome, and contribution separately below. Preserve quotes and commas.
 window.PORTFOLIO = {
   "name": "Mohd Abdullah Abrar",
   "initials": "MA",
@@ -21,10 +21,12 @@ window.PORTFOLIO = {
       "title": "A 6-bit computer, built from logic",
       "tools": "Proteus · Digital logic · SAP-1 architecture",
       "summary": "A SAP-1-based computer combining registers, memory, a control sequencer, and an arithmetic logic unit.",
-      "role": "My contribution: ALU design",
-      "details": "The team developed a common 6-bit bus architecture and integrated the functional blocks needed for arithmetic operations. My documented responsibility was designing the arithmetic logic unit. The reports include schematics, PCB layouts, and integration debugging.",
+      "details": "This team project built a simplified 6-bit computer around the SAP-1 architecture to demonstrate how individual digital circuits cooperate to execute instructions. It brings together program storage, data transfer, arithmetic, sequencing, and binary output in one system.",
       "scope": "Design and simulation documented in the submitted phase reports.",
-      "caption": "ALU circuitry from the SAPiens phase report."
+      "caption": "ALU circuitry from the SAPiens phase report.",
+      "method": "A shared 6-bit bus connects an 8 × 6-bit RAM, program counter, memory address register, instruction register, accumulator, B register, ALU, control sequencer, and output unit. The ALU performs addition and subtraction; automatic and manual clock modes support execution and step-by-step inspection.",
+      "outcome": "The phase reports document circuit schematics, PCB layouts, and integration debugging. The design demonstrates the relationship between the datapath and control signals in a small computer.",
+      "contribution": "I designed the arithmetic logic unit for 6-bit addition and subtraction, including its arithmetic circuitry and controlled connection to the shared bus."
     },
     {
       "id": "tennis",
@@ -32,12 +34,14 @@ window.PORTFOLIO = {
       "title": "Tennis ball tracking & speed analysis",
       "tools": "YOLOv8 · ResNet50 · Computer vision",
       "summary": "A team project analyzing tennis footage to track players and the ball and estimate motion using court geometry.",
-      "role": "Team project",
-      "details": "The CV describes a computer-vision pipeline using YOLOv8 and ResNet50, court-coordinate mapping, and pixel-to-meter conversion to analyze player velocity, acceleration, ball trajectories, racket impacts, and bounces.",
+      "details": "This team project analyzes tennis video to track players and the ball and describe motion in court coordinates. It connects computer-vision detections with geometric mapping to extract information about play.",
       "scope": "Project summary based on the updated CV. The linked repository is a team reference supplied in that CV.",
       "caption": "",
       "image": false,
-      "repository": "https://github.com/taufiktrf/Tennis-Tracker"
+      "repository": "https://github.com/taufiktrf/Tennis-Tracker",
+      "method": "The pipeline uses YOLOv8 and ResNet50, court-coordinate mapping, and pixel-to-meter conversion. The project covers player velocity and acceleration, ball trajectories, racket impacts, and bounces.",
+      "outcome": "The project is documented in my updated CV, which links the team repository below. No quantitative tracking-accuracy or speed-error results are asserted here.",
+      "contribution": "Completed as a team project; my specific responsibilities have not yet been detailed here."
     },
     {
       "id": "ml",
@@ -45,10 +49,12 @@ window.PORTFOLIO = {
       "title": "Explainable diabetic foot ulcer detection",
       "tools": "Python · MobileNetV2 · TensorFlow Lite · Grad-CAM",
       "summary": "A team-developed image classification workflow with visual explanations, confidence estimation, and mobile deployment work.",
-      "role": "My contribution: conceptualization, data collection & workflow",
-      "details": "I contributed to defining the problem, collecting data, and determining the workflow. The team report documents MobileNetV2 and EfficientNet-B0 comparisons, Grad-CAM explanations, Monte Carlo dropout, and a TensorFlow Lite deployment path.",
+      "details": "The team developed an image-classification prototype to distinguish diabetic foot ulcer images from non-ulcer images. The project combines classification with visual explanations and confidence estimation, making the model’s predictions easier to inspect.",
       "scope": "Academic classification prototype; not a clinically validated diagnostic system.",
-      "caption": "MobileNetV2 confusion matrix from the team report."
+      "caption": "MobileNetV2 confusion matrix from the team report.",
+      "method": "The workflow covers data collection and preparation, transfer learning, and comparison of MobileNetV2 and EfficientNet-B0. Grad-CAM highlights image regions influencing a prediction, Monte Carlo dropout estimates uncertainty, and TensorFlow Lite supports the mobile deployment workflow.",
+      "outcome": "The report compares the models using evaluation plots and confusion matrices and identifies MobileNetV2 as the preferred model in the study. The result is an academic prototype, not a clinically validated diagnostic system.",
+      "contribution": "I contributed to project conceptualization, data collection, and determining the end-to-end workflow, from the problem definition through the planned modeling and evaluation stages."
     },
     {
       "id": "fan",
@@ -56,10 +62,12 @@ window.PORTFOLIO = {
       "title": "Temperature-controlled DC fan",
       "tools": "AT89C51 · LM35 · ADC0804 · Proteus",
       "summary": "An 8051-based fan controller with temperature thresholds, PWM speed control, and manual and protection modes.",
-      "role": "Team project",
-      "details": "The system combines temperature sensing, analog-to-digital conversion, motor driving, and a keypad/LCD interface. The report documents binary and gradual speed modes, low-temperature sleep, manual control, and an overheat response.",
+      "details": "This team project developed a temperature-controlled DC fan system around an AT89C51 microcontroller. It combines automatic cooling, a user interface, and protective operating modes in an embedded control application.",
       "scope": "The portfolio presents the documented Proteus simulation. Physical assembly and testing are not asserted.",
-      "caption": "Fan-control circuit running in Proteus."
+      "caption": "Fan-control circuit running in Proteus.",
+      "method": "An LM35 senses temperature, an ADC0804 digitizes the signal, and the microcontroller adjusts the motor through a driver using PWM. A keypad and LCD provide user interaction. Binary and gradual speed modes are complemented by low-temperature sleep, manual control, and an overheat response.",
+      "outcome": "The report documents the integrated Proteus simulation, control routines, and debugging of sensing and motor-control connections. The image shown is the simulated circuit; it does not represent a measured hardware performance result.",
+      "contribution": "I contributed to building the fan hardware."
     },
     {
       "id": "game",
@@ -67,11 +75,13 @@ window.PORTFOLIO = {
       "title": "Tic-Tac-Toe on an 8051",
       "tools": "8051 Assembly · Proteus · Keypad & LED interfacing",
       "summary": "An embedded game combining a keypad, LED board, and LCD with two-player and rule-based opponent modes.",
-      "role": "Team project",
-      "details": "The team implemented move validation, turn handling, win/draw detection, and a lightweight rule-based opponent within the constraints of the AT89C51. Shift-register interfacing supports the LED game board.",
+      "details": "The team implemented Tic-Tac-Toe on an AT89C51 microcontroller as an exercise in embedded programming and peripheral interfacing. The system supports both two-player gameplay and a rule-based computer opponent.",
       "scope": "Proteus-simulated embedded system.",
       "caption": "Player-vs-player board state from the project report.",
-      "demo": "https://youtu.be/tZn1pr14aLA"
+      "demo": "https://youtu.be/tZn1pr14aLA",
+      "method": "Players enter moves using a keypad, while an LED board displays the game state and an LCD provides interaction feedback. Assembly routines handle turn changes, invalid moves, win and draw detection, and opponent decisions. Shift registers support the LED display interface.",
+      "outcome": "The report documents the Proteus implementation and gameplay demonstration. The opponent uses programmed rules rather than a trained machine-learning model.",
+      "contribution": "The project report credits me with keypad scanning, core game logic—including turn management, invalid-move handling, and win/draw detection—testing and debugging, and the video demonstration."
     },
     {
       "id": "phase",
@@ -79,10 +89,12 @@ window.PORTFOLIO = {
       "title": "Voltage-controlled analog phase shifter",
       "tools": "Cadence Virtuoso · GPDK090 · Analog IC design",
       "summary": "OTA-C circuit design and transient analysis, with a simulated phase shift of approximately 89.71° at 100 kHz.",
-      "role": "Team project",
-      "details": "The team used a tunable transconductance stage and an all-pass architecture to study phase response under a 0–1 V control input. The presentation documents circuit schematics, bias calibration, AC response, and transient verification.",
+      "details": "The team designed a voltage-controlled analog phase shifter to vary a signal’s phase through an electrical control input. The project investigates an OTA-C all-pass architecture using transistor-level analog circuit simulation.",
       "scope": "Simulation-based circuit design; no fabricated IC is claimed.",
-      "caption": "OTA-C phase-shifter schematic from the team presentation."
+      "caption": "OTA-C phase-shifter schematic from the team presentation.",
+      "method": "A tunable transconductance stage changes the circuit response under a 0–1 V control input. The design workflow in Cadence Virtuoso with GPDK090 includes circuit schematics, bias calibration, AC analysis, and transient verification of the phase relationship between input and output.",
+      "outcome": "Transient analysis reports an approximately 89.71° phase shift at 100 kHz. These are simulation results; fabrication, process-corner analysis, mismatch testing, and post-layout verification remain further work.",
+      "contribution": "Completed as a team project; my specific responsibilities have not yet been detailed here."
     },
     {
       "id": "cmos",
@@ -90,10 +102,12 @@ window.PORTFOLIO = {
       "title": "Low-power CMOS biosensor alert circuit",
       "tools": "PSpice · Microwind · Transistor-level CMOS",
       "summary": "A six-transistor OR-gate decision circuit for combining two binary abnormality flags in a proposed wearable application.",
-      "role": "My contribution: PSpice simulation & Microwind layout",
-      "details": "I performed circuit simulation in PSpice and developed the layout in Microwind. The team used a NOR-plus-inverter architecture to combine assumed fever and dehydration flags. The wearable substrate and sensing front ends are application concepts rather than a demonstrated complete sensor. The updated CV reports an estimated dynamic switching power of 162 nW under specified operating conditions.",
+      "details": "The team designed a low-power CMOS decision circuit for a proposed wearable biosensing application. Its purpose is to combine two binary abnormality indicators—fever and dehydration—into a single alert signal.",
       "scope": "Simulated rule-based logic circuit and layout; not a trained AI model or medical device.",
-      "caption": "Physical layout from the CMOS biosensor report."
+      "caption": "Physical layout from the CMOS biosensor report.",
+      "method": "A six-transistor NOR-plus-inverter circuit implements an OR function: either abnormality flag activates the output. The work includes transistor-level circuit simulation and physical layout, linking logic behavior to a CMOS implementation.",
+      "outcome": "The report estimates dynamic switching power at 162 nW using an activity factor of 0.5, a 10 fF load, a 1.8 V supply, and a 10 MHz switching frequency. This is a calculated operating-point estimate. The sensing front ends and wearable substrate remain application concepts; the demonstrated work concerns the logic circuit and layout.",
+      "contribution": "I performed circuit simulation in PSpice and developed the physical layout in Microwind."
     }
   ],
   "experience": [
