@@ -2,3 +2,36 @@
 
 /* Updated CV and thesis gallery */
 .research-gallery{display:grid;gap:20px;min-width:0}.research-visual{margin:0}.research-visual img{display:block;margin:0 0 15px;height:auto}.research-visual figcaption{font-size:11px;color:var(--muted);line-height:1.6}.research-visual a{display:block}.research-gallery img:hover{opacity:.92}#coursework p,#education-history p{font-size:13px;margin:0 0 18px;color:var(--muted)}#gre{font-size:12px;border-top:1px solid var(--line);padding-top:15px}.project-placeholder{width:100%;height:100%;min-height:165px;display:flex;flex-direction:column;justify-content:center;align-items:center;background:#e5eadb;text-align:center;padding:18px}.project-placeholder span{font-size:9px;letter-spacing:2px}.project-placeholder strong{font:28px Georgia,serif;margin:15px 0}.project-placeholder small{font-size:11px}
+/* Separate project story from individual contribution. */
+.project-detail-section{margin-top:26px}dialog .project-detail-section h3,dialog .contribution-box h3{font-size:17px;font-weight:650;line-height:1.4}dialog .project-detail-section p{margin:10px 0 0}.contribution-box{margin:26px 0;padding:20px;border-left:4px solid var(--dark);background:#e5eadb}.contribution-box p{margin:10px 0 0}dialog .project-placeholder{height:auto}
+
+
+/* Profile photograph: remove the initials decoration and frame the photo. */
+#portrait::before,
+#portrait::after {
+  content: none;
+  display: none;
+}
+
+#portrait {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #142323;
+}
+
+#portrait img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: 50% 40%;
+  border-radius: 0;
+}
