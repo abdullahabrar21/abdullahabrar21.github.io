@@ -7,7 +7,7 @@ window.PORTFOLIO = {
   "email": "abdullahabrar21@iut-dhaka.edu",
   "github": "https://github.com/abdullahabrar21",
   "linkedin": "https://www.linkedin.com/in/mohd-abdullah-abrar/",
-  ""photo": "assets/images/portrait.jpg",
+  "photo": "assets/images/portrait.jpg",
   "about": "I graduated from the Islamic University of Technology with a B.Sc. in Electrical and Electronic Engineering and a CGPA of 3.85/4.00, ranking 22 out of 164. My foundation comes from coursework, team projects, research, and industrial training. I am interested in applying engineering knowledge to practical challenges in technology, research, and teaching.",
   "education": "B.Sc. in Electrical & Electronic Engineering",
   "university": "Islamic University of Technology",
